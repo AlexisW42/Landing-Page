@@ -1,0 +1,35 @@
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  padding: 10px;
+  float: right;
+}
+
+.logo {
+  float: left;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.initial-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-for-img {
+  height: 100px;
+  width: 100px;
+  border: solid 3px black;
+  border-radius: 7px;
+}
