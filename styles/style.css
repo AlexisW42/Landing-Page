@@ -18,6 +18,12 @@ body {
   margin: 0px;
 }
 
+.button-sign {
+  background-color: #3882f6;
+  border-radius: 4px;
+  border: solid 2px #3882f6;
+}
+
 .first-section {
   background-color: #1f2937;
 }
@@ -41,14 +47,29 @@ body {
   font-family: sans-serif;
 }
 
+.second-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box-img-and-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .img-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .box-for-img {
+  display: flex;
+  align-items: center;
   height: 100px;
   width: 100px;
-  border: solid 3px black;
+  border: solid 3px #3882f6;
   border-radius: 7px;
 }
