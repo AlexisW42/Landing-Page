@@ -1,16 +1,32 @@
-ul {
-  list-style-type: none;
-  overflow: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family:"Roboto";
 }
 
-li {
-  padding: 10px;
-  float: right;
+a {
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .logo {
-  float: left;
+  font-size: 24px;
+  font-weight: 900;
+  margin-right: 400px;
 }
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  align-items:flex-end;
+  justify-content: space-between;
+}
+
+nav {
+  margin: 25px 140px 0px 130px;
+}
+
 
 body {
   display: flex;
@@ -18,14 +34,23 @@ body {
   margin: 0px;
 }
 
+h1 {
+  margin-bottom: 0px;
+}
+
 .button-sign {
   background-color: #3882f6;
-  border-radius: 4px;
+  border-radius: 10px;
   border: solid 2px #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 5px 35px;
 }
 
 .first-section {
   background-color: #1f2937;
+  height: 540px;
 }
 
 .first-img{
@@ -33,6 +58,7 @@ body {
 }
 
 .initial-text {
+  margin-top: 50px;
   height: 350px;
   padding: 40px 30px 0px 30px;
   display: flex;
@@ -41,16 +67,35 @@ body {
   align-items:flex-start;
 }
 
+p {
+  font-size: 18px;
+}
+
 .Main-text {
   margin-top: 0px;
   font-size: 48px;
-  font-family: sans-serif;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.text-from-top p {
+  color: #f9faf8;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 .second-section {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: #f9faf8;
+  padding: 20px 70px 0px 70px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .box-img-and-text {
@@ -68,8 +113,35 @@ body {
 .box-for-img {
   display: flex;
   align-items: center;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   border: solid 3px #3882f6;
-  border-radius: 7px;
+  border-radius: 20px;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight:light;
+  justify-content: right;
+}
+
+.text-from-quote {
+  font-size: 36px;
+}
+
+.end-quote {
+  justify-self:end;
+  align-self: flex-end;
 }
